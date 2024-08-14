@@ -1,0 +1,30 @@
+<?php
+include('header.php');
+?>
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css\style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Booking Requested</title>
+</head>
+
+<body>
+    <br><br><br>
+    <div align='center'>You Are Requested to Book Your Ticket<br>We Will Contact You Soon For Confirmation!
+        <br><br><br>
+        <button class="btn btn-warning" onclick="myBooking()">Go To My Booking</button>
+    </div>
+    <script>
+        function myBooking() {
+            location.replace("my_booking.php")
+        }
+    </script>
+</body>
+
+</!DOCTYPE>
